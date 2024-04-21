@@ -12,7 +12,7 @@ fun main() {
         val url = URL(inputLink)
         // Устанавливаем соединение с этой ссылкой
         val connection = url.openConnection()
-        // Создаем специального человека, чтобы он прочитал содержимое страницы
+        // Создаем специального человека, чтобы он прочитал содержимое страницы))))
         val reader = BufferedReader(InputStreamReader(connection.getInputStream()))
 
         // Создаем коробочку для хранения уникальных ссылок
